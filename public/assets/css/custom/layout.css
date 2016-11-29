@@ -1,7 +1,6 @@
 * { box-sizing: border-box; }
 
 body { 
-font-family: sans-serif; 
 padding-top:60px;
 }
 
@@ -9,6 +8,11 @@ padding-top:60px;
 	float: left;
 	width: 80px;
 	padding-top: 8px;
+}
+
+body .container .well,
+body .well {
+  width: 500px;
 }
 
 
